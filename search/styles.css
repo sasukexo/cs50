@@ -1,0 +1,47 @@
+.navbar-google{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-item-google{
+    margin: 10px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black
+}
+a:hover{
+    color:black
+}
+a:active{
+    color:black
+}
+.centre-div{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.rounded-input{
+}
+.om7nvf {
+    padding: 20px;
+}
+.ikrT4e {
+    max-height: 160px;
+}
+.o3j99 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
