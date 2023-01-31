@@ -81,7 +81,6 @@ body {
   .search-container {
     display: flex;
     flex-direction: column;
-    /* Align the search container in the center of the viewport */
     justify-content: center;
     align-items: center;
     height: 90%;
