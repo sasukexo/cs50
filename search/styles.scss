@@ -8,13 +8,13 @@ input {
     font-size: 16px;
     width: 300px;
     padding: 13px 0;
-    /* Parent selector = & */
+
     &:focus {
         outline: none;
     }
 
     &[type="text"] {
-        /* Give input text a lighter color */
+        
         color: #464646;
         margin: 0 0 0 5px;
     }
@@ -22,13 +22,13 @@ input {
     &[type="submit"] {
         font-size: 14px;
         width: 185px;
-        /* Remove border */
+    
         border-width: 0px;
         border-radius: 15px;
         margin: 20px;
 
         &:hover {
-            /* Add box-shadow when hovering button (border adds space) */
+            
             box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
         }
     }
@@ -94,7 +94,7 @@ input {
     $input_field_border_radius: 25px;
     display: flex;
     flex-direction: column;
-    /* Align the search container in the center of the viewport */
+   
     justify-content: center;
     align-items: center;
     height: 90%;
